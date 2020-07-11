@@ -1,4 +1,4 @@
-# Cornell Photo Society
+# Nikhil's Photo Society
 
 Source code for Nikhil Photo Society
 
