@@ -1,7 +1,7 @@
 # Cornell Photo Society
 
-Source code for http://cornell.photo
+Source code for Nikhil Photo Society
 
 ## License
 
-MIT © [Kevin Schaich](https://kevinschaich.io)
+MIT © [Shavy](https:shavy.xyz)
