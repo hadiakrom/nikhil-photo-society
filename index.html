@@ -70,7 +70,7 @@
                 <h1>About</h1>
                 <h2>We take the best pictures on campus.</h2>
                 <p>
-                    The Cornell Photo Society (CPS) is Cornell’s foremost organization dedicated to the art of photography. We welcome people with a wide range of skills and experience in photography, from beginner to advanced. We function as a hub for photographers to network, collaborate, and improve together. Every week we delve into different types of photography through workshops and outings. Join us as we explore astrophotography, timelapses, high-speed imagery, and aerial photography.
+                    The  Photo Society (CPS) is Nikhil's foremost organization dedicated to the art of photography. We welcome people with a wide range of skills and experience in photography, from beginner to advanced. We function as a hub for photographers to network, collaborate, and improve together. Every week we delve into different types of photography through workshops and outings. Join us as we explore astrophotography, timelapses, high-speed imagery, and aerial photography.
                 </p>
             </div>
         </div> -->
@@ -120,6 +120,26 @@
                             </div>
 
                             <div class='clear'><input type='submit' value='Send' class='submit-button'></div>
+                            <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
                             <input type='hidden' name='_next' value='thank-you-contact.html' />
                             <input type='text' name='_gotcha' style='display:none' />
